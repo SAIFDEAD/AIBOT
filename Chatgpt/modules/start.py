@@ -1,6 +1,6 @@
 # -----------CREDITS -----------
-# telegram : @Mr_Sukkun
-# github : noob-mukesh
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 from pyrogram import filters
 import asyncio
 from .. import Mukesh
