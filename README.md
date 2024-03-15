@@ -2,7 +2,7 @@
 <h4>ᴀʙᴏᴜᴛ ᴍᴇ!</h4>
 <pre><b>ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴀɪ ʙᴏᴛ </b></pre>
 
-<img src="https://telegra.ph/file/ce0e91236f919b6426902.jpg">
+<img src="https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
