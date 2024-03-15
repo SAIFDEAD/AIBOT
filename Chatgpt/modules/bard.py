@@ -1,6 +1,6 @@
 # -----------CREDITS -----------
-# telegram : @Mr_Sukkun
-# github : noob-mukesh
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 from pyrogram import filters
 from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup
@@ -15,7 +15,7 @@ async def bard_chat(bot, message):
     global x
     if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/bard write shorts notes on human eyes`")
+            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/ʙᴀʀᴅ ᴡʀɪᴛᴇ sʜᴏʀᴛs ɴᴏᴛᴇs ᴏɴ ʜᴜᴍᴀɴ ᴇʏᴇs`")
     else:
         a = message.text.split(' ', 1)[1]
     
@@ -25,7 +25,7 @@ async def bard_chat(bot, message):
             await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
             x=response.json()["results"]
             
-            await message.reply_text(f"{x}\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @{Mukesh.username} ",reply_markup=InlineKeyboardMarkup(gpt_button),quote=True)  
+            await message.reply_text(f"{x}\n🥀 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ @{Mukesh.username} ",reply_markup=InlineKeyboardMarkup(gpt_button),quote=True)  
         else:
             pass
 
