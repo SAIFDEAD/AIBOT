@@ -17,8 +17,8 @@ async def get_served_users() -> list:
     return users_list
 
 # # CREDITS
-# TELEGRAM : @Mr_Sukkun
-#  GITHUB : NOOB-MUKESH
+# TELEGRAM : @SAIF_DICTATOR
+#  GITHUB : SAIFDEAD
 
 async def save_id(user_id: int):
     is_served = await is_served_user(user_id)
