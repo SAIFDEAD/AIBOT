@@ -2,14 +2,14 @@ import os
 API_ID = os.environ.get("API_ID", "")
 API_HASH = os.environ.get("API_HASH", "")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL", "mr_sukkun")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP", "the_support_chat")
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL", "SAIFALLBOT")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP", "SAIFHELPGC")
 START_IMG = os.environ.get(
-    "START_IMG", "https://graph.org/file/d4412c7b411ca8da9e177.jpg"
+    "START_IMG", "https://te.legra.ph/file/685ba5e8be9ddf6eb5e18.jpg"
 )
 
 DATABASE_URI = os.environ.get(
     "DATABASE_URI",
     "",
 )
-OWNER_ID=6728038801
+OWNER_ID=6585111267
