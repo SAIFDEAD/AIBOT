@@ -1,6 +1,6 @@
 # -----------CREDITS -----------
-# telegram : @Mr_Sukkun
-# github : noob-mukesh
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 from pyrogram import filters
 import asyncio, time,requests
 from pyrogram.types import InlineKeyboardMarkup
@@ -17,19 +17,19 @@ x=None
 async def blackbox_chat(bot, message):
     if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/blackbox write simple flask app code`")
+            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/ʙʟᴀᴄᴋʙᴏx ᴡʀɪᴛᴇ sɪᴍᴘʟᴇ ғʟᴀsᴋ ᴀᴘᴘ ᴄᴏᴅᴇ`")
     else:
         a = message.text.split(' ', 1)[1]
     # CREDITS
-    # TELEGRAM : @Mr_Sukkun
-    #  GITHUB : NOOB-MUKESH
+    # telegram : @SAIF_DICTATOR
+    # github : SAIFDEAD
     try:
         response = requests.get(f'https://mukesh-api.vercel.app/blackbox?query={a}') 
         if response.status_code==200:
             await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
             x=response.json()["results"]
             
-            await message.reply_text(f"{x}\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @{Mukesh.username} ",reply_markup=InlineKeyboardMarkup(gpt_button),quote=True,disable_web_page_preview =True)  
+            await message.reply_text(f"{x}\n🌹 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ @{Mukesh.username} ",reply_markup=InlineKeyboardMarkup(gpt_button),quote=True,disable_web_page_preview =True)  
         else:
             pass
 
