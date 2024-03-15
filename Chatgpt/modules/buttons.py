@@ -1,6 +1,6 @@
 # CREDITS
-# TELEGRAM : @Mr_Sukkun
-#  GITHUB : NOOB-MUKESH
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM
 from config import *
@@ -21,20 +21,21 @@ START = f""" <b>
 ➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ.
 ──────────────────
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
+
 ᴀɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
 ──────────────────
 Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
 
-Pᴏᴡᴇʀᴇᴅ Bʏ @Mr_Sukkun  </b>"""
+Pᴏᴡᴇʀᴇᴅ Bʏ [𝐃ɪᴄᴛᴀᴛᴏʀ](https://t.me/SAIF_DICTATOR) </b>"""
 SOURCE_TEXT = f"""<b>
 ๏ ʜᴇʏ, ɪ ᴀᴍ <a href="https://t.me/{Mukesh.username}"> {Mukesh.name} </a>
 ──────────────────
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ</b>
 """
 HELP = f"""<b>➻ ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ  {Mukesh.mention}
-/chatgpt <prompt> ᴇxᴀᴍᴘʟᴇ: `/chatgpt write shorts notes of electricity`
-/bard <prompt> ᴇxᴀᴍᴘʟᴇ: `/bard write a simple flask app in python.`
-/blackbox <prompt> ᴇxᴀᴍᴘʟᴇ: `/blackbox write a simple website using python.`
+/chatgpt <prompt> ᴇxᴀᴍᴘʟᴇ: `/ᴄʜᴀᴛɢᴘᴛ ᴡʀɪᴛᴇ sʜᴏʀᴛs ɴᴏᴛᴇs ᴏғ ᴇʟᴇᴄᴛʀɪᴄɪᴛʏ`
+/bard <prompt> ᴇxᴀᴍᴘʟᴇ: `/ʙᴀʀᴅ ᴡʀɪᴛᴇ ᴀ sɪᴍᴘʟᴇ ғʟᴀsᴋ ᴀᴘᴘ ɪɴ ᴘʏᴛʜᴏɴ.`
+/blackbox <prompt> ᴇxᴀᴍᴘʟᴇ: `/ʙʟᴀᴄᴋʙᴏx ᴡʀɪᴛᴇ ᴀ sɪᴍᴘʟᴇ ᴡᴇʙsɪᴛᴇ ᴜsɪɴɢ ᴘʏᴛʜᴏɴ.`
 /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.
 /source Tᴏ ɢᴇᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ,
 /help Tᴏ ɢᴇᴛ ʜᴇʟᴘ   
@@ -44,6 +45,26 @@ HELP = f"""<b>➻ ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ  {Mukesh.
 
 """
 
+SAIFA = [
+    "https://te.legra.ph/file/77e80dd7b51a410cc9e9f.jpg",
+]
+g =choice(A)
+
+SAIFH = [
+    "https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
+]
+g =choice(h)
+
+SAIFR = [
+    "https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg",
+]
+g = choice(R)
+
+SAIFS = [
+    "https://te.legra.ph/file/685ba5e8be9ddf6eb5e18.jpg",
+]
+g = choice(S)
+
 x = ["❤️", "🎉", "✨", "🪸", " 🎉 ", " 🎈 ", "🎯"]
 g = choice(x)
 
@@ -51,29 +72,29 @@ g = choice(x)
 MAIN = [
     [
         IKB(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
             url=f"https://t.me/{Mukesh.username}?startgroup=true",
         ),
     ],
     [
-        IKB(text="ʜᴇʟᴘs", callback_data="HELP"),
+        IKB(text="𝐇ᴇʟᴘs", callback_data="HELP"),
     ],
     [
-        IKB(text="sᴏᴜʀᴄᴇ ", callback_data="HELP_source"),
+        IKB(text="𝐒ᴏᴜʀᴄᴇ ", callback_data="HELP_source"),
         
-        IKB(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
+        IKB(text="𝐃ᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
 ]
 ]
 
 PNG_BTN = [
     [
         IKB(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
             url=f"https://t.me/{Mukesh.username}?startgroup=true",
         ),
     ],
     [
-        IKB("sᴜᴘᴘᴏʀᴛ",
+        IKB("𝐒ᴜᴘᴘᴏʀᴛ",
             url=f"https://t.me/{SUPPORT_GRP}",
         ),
     ],
@@ -82,11 +103,11 @@ PNG_BTN = [
 gpt_button = [
     [
         IKB(
-            text="ᴀᴅᴅ ᴍᴇ",
+            text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
             url=f"https://t.me/{Mukesh.username}?startgroup=true",
         ),
 
-        IKB("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID)
+        IKB("𝐃ɪᴄᴛᴀᴛᴏʀ", user_id=OWNER_ID)
     ],
 ]
 
@@ -95,22 +116,22 @@ gpt_button = [
 HELP_BACK = [
 
     [
-        IKB("ʙᴀᴄᴋ", callback_data="HELP_BACK"),
+        IKB("𝐁ᴀᴄᴋ", callback_data="HELP_BACK"),
     ],
 ]
 
 SOURCE_BUTTONS = IKM(
     [
-        [IKB("sᴏᴜʀᴄᴇ", callback_data="HELP_hurr")],
+        [IKB("𝐒ᴏᴜʀᴄᴇ", callback_data="HELP_hurr")],
         [
-            IKB(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
-            IKB(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")
+            IKB(" 𝐒ᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+            IKB(text="𝐁ᴀᴄᴋ ", callback_data="HELP_BACK")
         ]
     ]
 )
 SOURCE_BUTTON = IKM(
     [
-        [IKB("sᴏᴜʀᴄᴇ" ,url=xy)
+        [IKB("𝐒ᴏᴜʀᴄᴇ" ,url=xy)
         ]
     ]
 )
