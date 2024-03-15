@@ -77,7 +77,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-
+ ᴊᴊʏᴅᴀ ᴊᴀɴɴᴇ ᴋɪ ᴊʀᴜʀᴀᴀᴛ ɴᴀʜ ʜᴀɪɪ sᴏ ᴊᴀᴀ
 
 ## 11. License and attribution
 
