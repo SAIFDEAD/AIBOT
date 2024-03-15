@@ -1,6 +1,6 @@
 # -----------CREDITS -----------
-# telegram : @Mr_Sukkun
-# github : noob-mukesh
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 from pyrogram import filters
 import asyncio, time
 from .. import Mukesh
@@ -22,8 +22,7 @@ async def ping(_, message):
     await txxt.delete()
     end = time.time()
     ms = str(round((end - start) * 1000, 3)) + " ᴍs"
-    await message.reply_photo(
-        photo=START_IMG,
-        caption=f"ʜᴇʏ ʙᴀʙʏ!!\n{Mukesh.mention} ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ {ms} \n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ  @mr_sukkun**",
+    await message.reply_photo(f"{sa}",
+        caption=f"ʜᴇʏ ʙᴀʙʏ!!\n{Mukesh.mention} ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ {ms} \n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ  [𝐃ɪᴄᴛᴀᴛᴏʀ](https://t.me/SAIF_DICTATOR)**",
         reply_markup=IKM(PNG_BTN),
     )
