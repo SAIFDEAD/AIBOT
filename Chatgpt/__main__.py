@@ -17,11 +17,11 @@ async def Chatgpt_start():
     for all_module in ALL_MODULES:
         importlib.import_module("Chatgpt.modules." + all_module)
 
-    LOGGER.info(f"@{Mukesh.username} Started.")
-    await Mukesh.send_photo(OWNER_ID,START_IMG,"I am Alive")
+    LOGGER.info(f"@{Mukesh.username} sᴛᴀʀᴛᴇᴅ 🎀.")
+    await Mukesh.send_photo(OWNER_ID,START_IMG,"𝐆ᴏᴊᴏ 𝐀ɪ 𝐈s 𝐀ʟɪᴠᴇ")
     await idle()
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(Chatgpt_start())
-    LOGGER.info("Stopping Chatgpt bot")
+    LOGGER.info("Stopping Gojo Ai bot")
