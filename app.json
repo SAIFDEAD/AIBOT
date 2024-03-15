@@ -1,20 +1,20 @@
 
 {
-  "name": "Chat-Gpt",
+  "name": "𝐆ᴏᴊᴏ-𝐀ɪ",
   "description": "A Telegram open-ai Chatgpt bot.",
-  "logo": "https://te.legra.ph/file/9fa2101b77407dbec7d31.jpg",
+  "logo": "https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
   "keywords": [
     "telegram", "chatgpt",
     "python",
     "pyrogram",
-    "Noob-Mukesh"   
+    "SAIFDRAD"   
   ],
   "stack": "heroku-20",
   "addons": [
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "15"
       }
     }
   ],
@@ -24,31 +24,38 @@
     },
     "OWNER_ID": {
       "description": "Owner id OF TELEGRAM ",
-      "required": true
+      "required": true,
+      "value": "6585111267"
     },
     "SUPPORT_GRP": {
       "description": "Your Support Group without @",
-      "required": true
+      "required": true,
+      " value": "SAIFHELPGC"
     },
     "STKR": {
       "description": "Sticker for start", 
-      "required": true
+      "required": true,
+      "value": "BQGT4bUAnyzq4EiiutO2QzsnFbfNMkvyI_a67q_V3XrtRSGP4ANrtmURHDoJAAnX7zhV4kkKwhcJAIrZsYzN-mKog8VuGcYHWh8aaFbtF93TJHbjcbBaniQFUlYjH9SON8cZutaUlaShGxJHOQ5OwxmLs5_Ui6Z8GWjDm6d_972IWgeYFj3fWfkzcquVjL0HdJoWXhNn_wMWEkJF0eTcm8OUsykK0JIF9W0i4Pv41YCpxyFCE2-dp8PLiKGNlTBf3kAt2uyPYKlTWwOYYo8xiNvsJ7I9ZDq0pGduHdFCTgfkKetA888yaFImGkmZfQCf1dnm93_LkUSpvzP7fCZ_ZDNxQwTGlAAAAAF8SpXeAA"
     },
     "START_IMG": {
       "description": "Start Image For Bot.",
-      "required": true
+      "required": true,
+      "value": "https://te.legra.ph/file/35f8b42234608be1f97f1.jpg"
     },
     "UPDATE_CHNL": {
       "description": "Your Updates Channel without @",
-      "required": true
+      "required": true,
+      "value": "SAIFALLBOT"
     },
     "API_ID": { "description": "telegram api id here",
-      "required": true
+      "required": true,
+      "value": "26468789"
     },
     "API_HASH": {
       "description": "telegram api hash here",
-      "required": true
+      "required": true,
+      "value": "0da550ed2c95f251600e5ee51ff0fe66"
     }
   },
-  "repository": "https://github.com/noob-mukesh/Chatgpt-bot"
+  "repository": "https://github.com/SAIFDEAD/AIBOT"
 }
