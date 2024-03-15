@@ -10,6 +10,6 @@ START_IMG = os.environ.get(
 
 DATABASE_URI = os.environ.get(
     "DATABASE_URI",
-    "",
+    "mongodb+srv://yashsamrat32169:ylWiINR00JzSqwhP@cluster0.j44oov2.mongodb.net/?retryWrites=true&w=majority",
 )
 OWNER_ID=6585111267
