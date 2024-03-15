@@ -2,7 +2,7 @@ aiofiles
 pyrogram
 requests
 dnspython
-# tgcrypto
+tgcrypto
 asyncio
 pymongo
 motor
