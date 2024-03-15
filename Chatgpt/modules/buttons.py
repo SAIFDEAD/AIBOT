@@ -48,25 +48,23 @@ HELP = f"""<b>➻ ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ  {Mukesh.
 SAIFA = [
     "https://te.legra.ph/file/77e80dd7b51a410cc9e9f.jpg"
 ]
-g =choice(SA)
+g =choice(sa)
 
 
-SAIFH = [
-    "https://te.legra.ph/file/35f8b42234608be1f97f1.jpg"
-]
-g =choice(SH)
+SAIFH = ["https://te.legra.ph/file/35f8b42234608be1f97f1.jpg"]
+g =choice(sh)
 
 
 SAIFR = [
     "https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg"
 ]
-g = choice(SR)
+g = choice(sr)
 
 
 SAIFS = [
     "https://te.legra.ph/file/685ba5e8be9ddf6eb5e18.jpg"
 ]
-g = choice(SS)
+g = choice(ss)
 
 
 x = ["❤️", "🎉", "✨", "🪸", " 🎉 ", " 🎈 ", "🎯"]
