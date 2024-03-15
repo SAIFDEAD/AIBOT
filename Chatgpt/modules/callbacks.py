@@ -1,6 +1,6 @@
 # CREDITS
-# TELEGRAM : @Mr_Sukkun
-#  GITHUB : NOOB-MUKESH
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 
 from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM,CallbackQuery
 from pyrogram import Client
