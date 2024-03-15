@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return ' I Am alive'
+    return 'GOJO AI IS ALIVE'
 
 if __name__ == "__main__":
     app.run()
