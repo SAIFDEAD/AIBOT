@@ -1,6 +1,6 @@
 # -----------CREDITS -----------
-# telegram : @python_coderx
-# github : noob-mukesh
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 import asyncio, time,requests
@@ -13,13 +13,13 @@ async def chatgpt_chat(bot, message):
     
     if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/chatgpt write simple website code using html css ,js?`")
+            "ᴇxᴀᴍᴘʟᴇ:**\n\n`/ᴄʜᴀᴛɢᴘᴛ ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ?`")
     else:
         a = message.text.split(' ', 1)[1]
 
     # -----------CREDITS -----------
-    # telegram : @python_coderx
-    # github : noob-mukesh
+    # telegram : @SAIF_DICTATOR
+    # github : SAIFDEAD
     
 
     try:
@@ -28,7 +28,7 @@ async def chatgpt_chat(bot, message):
             await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
             x=response.json()["results"]
             
-            await message.reply_text(f"{x}\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @{Mukesh.username} ",reply_markup=InlineKeyboardMarkup(gpt_button),quote=True)  
+            await message.reply_text(f"{x}\n🍂 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ @{Mukesh.username} ",reply_markup=InlineKeyboardMarkup(gpt_button),quote=True)  
         else:
             pass
 
