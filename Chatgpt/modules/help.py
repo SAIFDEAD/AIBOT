@@ -1,6 +1,6 @@
 # -----------CREDITS -----------
-# telegram : @mr_sukkun
-# github : noob-mukesh
+# telegram : @SAIF_DICTATOR
+# github : SAIFDEAD
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
@@ -13,8 +13,7 @@ from ..modules.buttons import *
     )
 )
 async def help(_, m):
-    await m.reply_photo(
-        START_IMG,
+    await m.reply_photo(f"{sh}",
         caption=f"{HELP}",
         reply_markup=InlineKeyboardMarkup(HELP_BACK),quote=True
     )
